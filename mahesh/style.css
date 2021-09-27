@@ -128,7 +128,7 @@ button:hover{
       
     }
 }
-    /*---------gallery--------*/
+    /*---------gallery---------*/
     .gallery{
       background-color: lightblue;
       margin: auto;
@@ -178,7 +178,7 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-
+.dot{
   height: 15px;
   width: 15px;
   margin: 0 2px;
