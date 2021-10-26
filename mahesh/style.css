@@ -88,7 +88,7 @@ button{
 
 button:hover{
   border: 1px solid #871F78;
-  background: black;
+  background: #c3b3d1;
   transition: 1s;
 
 }
@@ -96,8 +96,12 @@ button:hover{
   display: none;
  }
 @media(max-width: 700px){
-  .content h1{
+  .content h1, .cta h1{
     font-size: 20px;    
+  }
+  .but{
+    font-size: 10px;
+
   }
   .nav-links ul li{
     display: block;
@@ -132,7 +136,7 @@ button:hover{
     text-align: center;
     padding-top:100px ;
     padding-bottom: 50px;
-    background-color: #e2dce7;
+    /*background-color: #e2dce7;*/
 
     }
 
@@ -151,7 +155,7 @@ button:hover{
 
 }
 .galleries{
-  background-color: #e2dce7;
+  /*background-color: #e2dce7;*/
   /*padding-bottom: 50px;
   */}
 .mySlides {display: none;
@@ -207,7 +211,7 @@ img {vertical-align: middle;}
 
 .fade {
   -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
+  -webkit-animation-duration: 2s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
@@ -242,7 +246,7 @@ img {vertical-align: middle;}
   text-align: center;
   padding-top: 50px;
   padding-bottom: 20px;
-  background-color: #e2dce7;
+  /*background-color: #e2dce7;*/
  }
 .testimonials {
   /*margin-top: 5%;*/
@@ -250,7 +254,7 @@ img {vertical-align: middle;}
   padding-right: 5%;
   display: flex;
   justify-content: space-between;
-  background-color: #e2dce7;
+  /*background-color: #e2dce7;*/
 }
 /*.testimonials{
   width: 80%;
@@ -304,9 +308,10 @@ img {vertical-align: middle;}
 }*/
 h3{
   text-align: center ;
+  color: #fff;
 }
 p{
-  color: #1a2421;
+  color: #fff;
   font-size: 14px;
   font-weight: 300;
   line-height: 22px;
@@ -315,7 +320,7 @@ p{
 }
 
 .testimonial-col:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
 }
 
 @media(max-width: 700px){
@@ -326,8 +331,37 @@ p{
 
 
 
+/*CALL TO ACTION*/
+.cta{
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(pics/getintouch.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
 
+}
 
+.cta h1{
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+  font-weight: normal;
 
+}
 
+.but{
+  color: #fff;
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+}
+.but:hover{
+  border: 1px solid #871F78;
+  background: #c3b3d1;
+  transition: 1s;
 
+}
