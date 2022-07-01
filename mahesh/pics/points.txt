@@ -1,5 +1,4 @@
 home-gallery "quotes"
 portfolio-works,gallery
 about-self
-info-pricing
 contacts-Get in touch

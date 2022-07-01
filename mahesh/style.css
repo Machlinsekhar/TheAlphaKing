@@ -381,3 +381,52 @@ p{
   overflow:  hidden;
 }
 
+/* ------contact----- */
+.con{
+  padding-left: 20px;
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+} 
+ .con img{
+  flex-basis: 30%;
+  order: 2;
+}
+.con-col {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 40Px;
+
+}
+
+.con-col .but{
+  color: rgb(2, 0, 3);
+  padding: 10px 25px;
+  border: 1px solid #fff;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  background: #717171;
+}
+.con-col .but:hover{
+  border: 1px solid #871F78;
+  background: #c3b3d1;
+  transition: 1s;
+
+}
+
+label{
+  font-size: 60%;
+  text-align: left;
+}
+
+.location{
+  width: 80%;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.location iframe{
+  width: 100%;
+}
