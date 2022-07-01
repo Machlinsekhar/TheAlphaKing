@@ -10,7 +10,7 @@
     width: 100%;
     height: 100vh;
     background-image: url(pics/maheshanna.png);
-    backgroung-size: cover;
+    background-size: cover;
     background-position: center;
     position:  relative;
     overflow:  hidden;
@@ -228,6 +228,7 @@ img {vertical-align: middle;}
 
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+  
 }
 
  /*testimonials*/ 
@@ -375,7 +376,7 @@ p{
   position: absolute;
   text-align: center;
   background-image: url(pics/cropedback.jpeg);
-  backgroung-size: cover;
+  background-size: cover;
   background-position: center;
   position:  relative;
   overflow:  hidden;
@@ -389,10 +390,8 @@ p{
   align-items: center;
   justify-content: center
 } 
- .con img{
-  flex-basis: 30%;
-  order: 2;
-}
+ 
+
 .con-col {
   text-align: center;
   font-size: 30px;
@@ -400,7 +399,7 @@ p{
 
 }
 
-.con-col .but{
+.con-col #but{
   color: rgb(2, 0, 3);
   padding: 10px 25px;
   border: 1px solid #fff;
@@ -409,17 +408,29 @@ p{
   font-size: 15px;
   background: #717171;
 }
-.con-col .but:hover{
+.con-col #but:hover{
   border: 1px solid #871F78;
   background: #c3b3d1;
-  transition: 1s;
-
+  transition: 2s;
+  float: right;
 }
 
 label{
   font-size: 60%;
   text-align: left;
 }
+
+input, select, textarea {
+
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
 
 .location{
   width: 80%;
