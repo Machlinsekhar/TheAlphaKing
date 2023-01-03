@@ -386,9 +386,9 @@ p{
 .con{
   padding-left: 20px;
   padding-top: 30px;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center */
 } 
  
 
@@ -400,20 +400,21 @@ p{
 }
 
 .con-col #but{
-  color: rgb(2, 0, 3);
+  color: #871F78;
   padding: 10px 25px;
   border: 1px solid #fff;
   outline: none;
   cursor: pointer;
   font-size: 15px;
-  background: #717171;
+  background: #c3b3d1;
 }
-.con-col #but:hover{
+ .con-col #but:hover{
   border: 1px solid #871F78;
   background: #c3b3d1;
   transition: 2s;
-  float: right;
-}
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.4);
+  
+} 
 
 label{
   font-size: 60%;
@@ -429,6 +430,12 @@ input, select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  width: 30%;
+}
+
+.info{
+  text-align: center;
+  
 }
 
 
@@ -441,3 +448,4 @@ input, select, textarea {
 .location iframe{
   width: 100%;
 }
+

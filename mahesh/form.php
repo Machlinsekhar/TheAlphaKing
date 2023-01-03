@@ -5,7 +5,7 @@ $phone = $_POST['phone']
 $venue = $_POST['venue']
 $message = $_POST['message']
 
-$email_from = 'machlinsekhar@gmail.com'
+$email_from = 'info@TheAlphaKing.org'
 $email_subject = 'New Customer'
 $email_body = "User Name: $name.\n".
               "User Email: $email.\n".
